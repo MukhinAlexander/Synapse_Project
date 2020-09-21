@@ -1,0 +1,1118 @@
+$primary-font:	"Officina Serif C"
+$second-font: "Roboto Bold"
+$third-font: "Roboto Light"
+
+ul, li
+	display: block
+
+body,
+ul, li, p,
+.sidebar,
+.estimate,
+.content
+	margin: 0
+	padding: 0
+
+.wrapper
+	display: flex
+	font-family: $third-font
+
+.sidebar
+	position: sticky
+	top: 0
+	height: 1023px
+	width: 263px
+	padding-top: 25px
+	background: url(../img/back-tree.png) no-repeat
+	background-color: #503314
+	background-blend-mode: multiply
+
+.logo
+	margin: 0 auto 100px
+	width: 64%
+
+.logo__picture
+	margin-bottom: 22px
+	width: 94%
+
+.logo__text
+	width: 160px
+	text-align: center
+	color: #ffffff
+	font-family: $primary-font
+	font-size: 15px
+	text-transform: uppercase
+
+.burger-menu
+	display: none
+
+nav
+	margin-bottom: 160px
+
+.menu
+    margin: 0 93px 0 59px
+    width: 115px
+
+.menu__item
+	margin-bottom: 31px
+
+.menu__item:last-child
+	margin-bottom: 0
+
+.menu__item a
+	font-family: $primary-font
+	font-size: 16px
+	text-decoration: none
+	color: #ffffff
+	text-transform: uppercase
+	border-bottom: solid 1px transparent
+	&:hover
+		color: #ffffff
+		border-bottom: solid 1px #ffffff	
+		transition-duration: .8s
+
+.contact
+	width: 144px
+	margin: 0 auto
+    
+
+.contact__phone
+	margin-bottom: 8px
+	color: #fefefe
+	a
+		text-transform: uppercase
+		font-family: $primary-font
+		font-size: 20px
+		&:hover
+			text-decoration: underline
+			color: #fefefe
+
+.contact__worktime
+	margin-bottom: 46px
+	margin-left: 4px
+	color: #fefefe
+	font-family: $third-font
+	font-size: 12px
+
+.contact__callback
+	margin-bottom: 77px
+	margin-left: 2px
+	color: #fefefe
+	a
+		font-family: $primary-font
+		font-size: 16px
+		text-transform: uppercase
+		&:hover
+			cursor: pointer
+			text-decoration: underline
+			color: #fefefe
+
+.estimate
+	position: sticky
+	top: 0
+	height: 1000px
+	padding: 24px 47px 0 46px
+	width: 332px
+	background: #f2f2f2
+
+.social-gadjets__text
+	margin-bottom: 16px
+	color: #343434
+	font-family: $third-font
+	font-size: 18px
+	white-space: nowrap
+
+.pluso
+	margin-bottom: 81px
+
+.pluso-vkontakte, .pluso-odnoklassniki
+	margin-right: 10px !important
+
+.pluso-more
+	display: none !important
+
+.description
+	max-width: 400px
+
+.description__house
+	display: flex
+	width: 230px
+	margin-bottom: 38px
+
+.description__sizes
+	display: flex
+	flex-direction: column
+	height: 46px
+	line-height: 20px
+
+.description__rate
+	font-family: $third-font
+	margin-bottom: 20px
+	width: 142px
+	font-size: 18px
+
+.description__rate:first-child
+	padding-top: 10px
+
+.description__rate span
+	font-family: $second-font
+
+.description__icons
+	background: url('../img/icons_sizes.png') no-repeat
+	width: 70px
+	height: 240px
+	margin-right: 27px
+
+.description__total
+	margin-bottom: 30px
+	width: 197px
+
+.description__total p
+	margin-bottom: 15px
+	font-family: $third-font
+	font-size: 18px
+
+.description__price
+	color: #006022
+	font-family: $primary-font
+	font-size: 30px
+	font-weight: 700
+
+.description__outlay
+	margin-bottom: 58px
+	width: 100%
+	height: 66px
+	display: flex
+	justify-content: center
+	background: url(../img/button-back.png)
+	background-size: contain
+	background-color: #006022
+	background-blend-mode: multiply
+	box-shadow: 0 2px 14px rgba(0, 0, 0, 0.3)
+	line-height: 66px
+
+.description__outlay a
+	text-decoration: none
+	color: #ffffff
+	font-family: $primary-font
+	font-size: 22px
+
+.description__text
+	padding-left: 3px
+	color: #1c1c1c
+	font-family: $third-font
+	font-size: 16px
+	line-height: 24px
+
+.content
+	padding: 21px 10px 0 26px
+	width: 65.47%
+
+.breadcrumb
+	margin-bottom: 24px
+	display: flex
+
+.breadcrumb li
+	font-size: 16px
+	font-family: $third-font
+
+.breadcrumb li:first-child:before
+	display: none
+
+.breadcrumb li:before
+	padding: 4px 9px 5px 9px
+	content: '⟵'
+	color: #e2e2e2
+
+.breadcrumb>li>a
+	text-decoration: none
+	color: #1c1c1c
+	border-bottom: solid 1px transparent
+
+.breadcrumb>li>a:hover
+	border-bottom: solid 1px #1c1c1c
+	transition-duration: 0.4s
+
+.content__project-name
+	margin-bottom: 38px	
+	font-size: 60px
+	font-family: $primary-font
+	color: #503314
+	font-weight: 700
+
+.content__house
+	margin-bottom: 50px
+
+.content__house-info
+	display: flex
+		
+.content__house-slider
+	min-width: 320px
+	width: 72%
+	margin-right: 4%
+  	
+.carousel-main
+	margin-bottom: 30px
+
+.carousel-main .carousel-cell
+  	width: 100%
+  	min-height: 200px
+  	margin-right: 20px
+
+.carousel-image 
+  	display: block
+  	/* set min-width, allow images to set cell width */
+  	min-width: 300px
+  	width: 100%
+  	margin-right: 10px
+
+.carousel-nav .carousel-cell
+	margin-right: 3%
+	width: 20%
+	min-height: 44px
+	padding-bottom: 4px
+	border-bottom: 2px solid transparent !important
+
+.carousel-nav .carousel-cell:last-child
+	margin-right: 0	
+
+.carousel-nav .carousel-cell.is-nav-selected
+  	border-bottom: 2px solid #006022 !important
+
+.carousel-cell-image
+	width: 100%
+	height: 100%
+	vertical-align: middle
+  	
+
+.flickity-button
+  	background: hsla(0,0%,100%,0)
+
+.flickity-prev-next-button
+    width: 29px
+
+.flickity-prev-next-button.next
+    right: -5px
+
+.flickity-prev-next-button.previous
+  	left: -5px
+
+.flickity-button-icon
+  	fill: #006022
+
+.content__house-floor
+	max-width: 24%
+	& p
+		margin-bottom: 7%
+		color: #343434
+		font-family: $third-font
+		font-size: 18px
+
+.house__firstfloor
+	padding-left: 10%
+	margin-bottom: 15%
+	width: 89%
+
+.house__secondfloor
+	padding-left: 10%
+	width: 90%
+
+.content__description
+	display: none
+
+.equipment
+	margin-bottom: 47px
+	width: 100%
+	display: flex
+
+.equipment__basic,
+.equipment__optimal
+	width: 48.65%
+	font-family: $primary-font
+
+.equipment__basic
+	margin-right: 3.8%
+
+.equipment__header
+	max-height: 104px
+	padding: 38px 28px
+	display: flex
+	align-items: center
+	background-color: #f2f2f2
+	color: #1c1c1c
+	font-size: 22px
+	font-weight: 700
+	
+.equipment__img
+	margin-right: 35px	
+	
+.equipment__item
+	padding: 13px 28px
+	font-family: $third-font
+	font-size: 16px
+
+.equipment__item:nth-child(even)
+	background-color: #f2f2f2
+
+.equipment__first-footer,
+.equipment__second-footer
+    min-height: 104px
+    padding: 15px
+    display: flex
+    align-items: center
+    justify-content: center
+    text-align: center
+    color: #ffffff
+    font-size: 30px
+    box-shadow: 0 0 0 128px rgba(0, 0, 0, 0.33) inset
+
+.equipment__first-footer
+	background: url(../img/back.png) no-repeat
+	background-size: 118%
+	background-position: 0% 68%
+
+.equipment__second-footer
+	background: url(../img/back1.jpg) no-repeat
+	background-size: 125%
+	background-position: 4% 36%
+
+.delivery
+	margin-bottom: 54px
+	width: 100%
+	background-color: #f2f2f2
+	
+	&__head
+		margin-bottom: 23px
+		padding-top: 42px
+		text-align: center
+		font-family: $primary-font
+		font-size: 30px
+		font-weight: 700
+		
+	
+	&__text
+		margin: 0 auto
+		text-align: center
+		box-sizing: border-box
+		max-width: 444px
+		font-family: $third-font
+		line-height: 23.94px
+		font-size: 18px
+
+	&__text > b
+		font-family: $second-font
+		font-weight: 700
+
+	&__tracks
+		margin: 0 auto
+		padding: 36px 0 43px 0
+		max-width: 555px
+		display: flex
+
+	&__price
+		margin: 0 auto
+		padding-bottom: 56px
+		text-align: center
+		box-sizing: border-box
+		max-width: 444px
+		font-family: $third-font
+		line-height: 23.94px
+		font-size: 18px
+
+	&__price > b
+		font-family: $second-font
+		font-weight: 700
+
+.delivery__tracks img
+	margin: 0 20px
+
+.delivery__tracks-mobile
+	display: none
+
+.comparator
+	margin-bottom: 64px
+	width: 100%
+	color: #1c1c1c
+
+	&__title
+		margin-bottom: 25px
+		text-align: center
+		font-family: $primary-font
+		font-size: 30px
+		font-weight: 700
+
+	&__description
+		margin-bottom: 47px
+		font-family: $third-font
+		font-size: 16px
+		font-weight: 300
+		line-height: 23.94px
+	
+	&__slider
+		margin-top: 46px
+		margin: 0 auto
+		max-width: 829px
+		width: 100%
+		height: 538px
+		max-height: 100%
+
+.report
+	margin-bottom: 119px
+
+.report__title
+	margin-bottom: 35px
+	text-align: center
+	color: #1c1c1c
+	font-family: $primary-font
+	font-size: 30px
+	font-weight: 700
+
+.report__list
+	display: flex
+	margin-bottom: 30px
+
+.report__item
+	width: 23.11%
+	margin-right: 2.68%
+
+.report__item img
+	width: 99%
+
+.report__item p
+	color: #343434
+	font-family: $third-font
+	font-size: 16px
+	font-weight: 300
+
+.report__item-firstdoc,
+.report__item-seconddoc
+	width: 100%
+
+.report__item-firstdoc a,
+.report__item-seconddoc a
+	display: flex
+	width: 50%
+	text-decoration: none
+
+.report__item-firstdoc > a > img,
+.report__item-seconddoc > a > img
+	height: 50%
+
+.report__item-firstdoc > a > span,
+.report__item-seconddoc > a > span
+	margin: 0
+	padding: 6px 5px
+	height: 11.3%
+	background: #006022
+	font-family: $second-font
+	font-size: 10px
+	color: #ffffff
+	text-transform: uppercase
+
+.video
+	position: relative
+	width: 49%
+
+.screensave
+	position: absolute
+	width: 100%
+	height: 100%
+	background: url('../img/screensave.png') no-repeat
+	background-position: center center
+	background-size: 110%
+	transition: 0.5s
+
+.screensave p 
+	position: relative
+	width: 360px
+	z-index: 5
+	top: 90%
+	left: 6%
+	color: #ffffff
+	font-family: Roboto
+	font-size: 1em
+	font-weight: 300
+
+.screensave::before
+	position: absolute
+	width: 100%
+	height: 100%
+	z-index: 2
+	content: ''
+	background: rgba(0, 0, 0, 0.5)
+
+.screensave:hover
+	background-size: 120%
+
+.play
+	position: absolute
+	z-index: 3
+	width: 46px
+	height: 40px
+	top: 50%
+	left: 50%
+	margin-top: -26px
+	margin-left: -20px
+	cursor: pointer
+	background: url(../img/icon-play.png) no-repeat
+	background-size: 100%
+iframe
+	width: 99%
+	height: 99%
+
+.report__picture
+	width: 100%
+	display: flex
+	flex-flow: row wrap
+	justify-content: space-evenly
+	
+.report__image
+	padding-bottom: 13px
+	width: 23%
+
+.report__image img
+	width: 100%
+	height: 100%
+
+.footer-top
+	display: flex
+	color: #494949
+	font-family: $third-font
+	font-size: 15px
+	font-weight: 300
+
+.footer-menu,
+.footer-region,
+.footer-contacts
+	width: 25%
+	
+.footer-menu:first-child
+	margin-right: 20px
+
+.footer-menu-title
+	margin-bottom: 12px
+	font-family: $second-font
+	font-weight: 700
+	
+.footer-nav li
+	margin-bottom: 14px
+	display: block
+
+.footer-nav li a
+	text-decoration: none
+	color: #494949
+	border-bottom: solid 1px transparent
+	transition: border-color 0.4s
+
+.footer-nav li a:hover
+    border-bottom: solid 1px #494949
+
+.footer-region-production,
+.footer-region-office,
+.footer-contacts-phone
+	display: flex
+
+.footer-region-production
+	margin-bottom: 30px
+
+.footer-region-icon,
+.footer-contacts-icon
+	margin-top: 3px
+	margin-right: 15px
+
+.footer-region-content
+	width: 310px
+	line-height: 21.94px
+
+.footer-region-content p
+	margin: 0
+
+.footer-region-title,
+.footer-contacts-title
+	font-family: $second-font
+	font-weight: 700
+
+.footer-region-text
+.footer-contacts-text
+	font-family: $third-font
+	font-weight: 300
+
+.footer-region-text span	
+	color: #006022
+
+.footer-region-office,
+.footer-contacts-social
+	padding-left: 36px
+
+.footer-contacts-phone
+	margin-bottom: 27px
+	line-height: 29.92px
+
+.footer-contacts-text a
+	text-decoration: none
+	color: #006022
+	border-bottom: solid 1px transparent
+    transition: border-color 0.4s,color 0.4s
+    
+.footer-contacts-text a:hover
+	border-bottom: solid 1px #006022
+
+.footer-contacts-social
+	display: flex
+	height: 30px
+	line-height: 30px
+	
+.footer-contacts-social a
+	margin-right: 34px
+
+.footer-contacts-social a:last-child
+	margin-right: 0
+
+
+
+
+
+@media screen and (max-width: 1366px)
+	.sidebar
+		position: sticky
+		width: 220px
+		padding-top: 28px
+	
+	.logo
+		margin: 0 auto 98px
+		width: 77%
+
+	.logo__picture
+		width: 94%
+		margin-bottom: 18px
+
+	.logo__text
+		font-size: 14px
+		line-height: 19px
+
+	nav
+		margin-bottom: 160px
+
+	.menu
+		margin: 0px 31px 66px 36px
+
+	.menu__item
+		margin-bottom: 31px
+
+	.contact__phone
+		margin-bottom: 6px
+
+	.contact__worktime
+		margin-bottom: 48px
+		font-size: 12px
+	
+	.contact__callback a
+		font-size: 16px
+
+	.estimate
+		display: none
+
+	.description
+		background: #ffffff
+	
+	.social-gadjets__text
+		margin-bottom: 13px
+
+	.pluso
+    	margin-bottom: 54px
+	
+	.content
+		width: 80%
+
+	.content__project-name
+		margin-bottom: 33px
+
+	.content__house
+		display: flex
+
+	.content__house-info
+		display: block
+		margin-right: 2%
+		width: 68%
+    	
+	.content__description
+		display: block
+		width: 27%
+
+	.description
+		background: white
+
+	.content__house-slider
+		margin-bottom: 27px
+		width: 100%
+
+	.carousel-nav .carousel-cell
+		margin-right: 7%
+
+	.flickity-button
+		display: none
+
+	.content__house-floor
+		display: flex
+		justify-content: center
+		max-width: 100%
+
+	.content__house-floor-item:first-child
+		margin-right: 84px
+	
+	.content__house-floor-item p
+		font-size: 18px
+
+	.house__firstfloor,
+	.house__secondfloor
+		width: 90%
+
+	.report
+		margin-bottom: 69px
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px)
+	.wrapper
+		position: relative
+
+	.sidebar
+		position: fixed
+		padding-top: 15px
+		width: 90px
+		height: 100vh
+		transition: 0.3s
+		z-index: 99
+
+	.menu-active
+		width: 180px
+
+	.logo
+		margin: 0 auto
+		width: 86%
+
+	.logo:hover
+		cursor: pointer
+
+	.logo__picture
+		width: 98%
+
+	.logo__text
+		display: none
+
+	nav
+		position: relative
+		z-index: 1
+		top: 10%
+
+	.burger-menu, .close-menu
+		display: flex
+		flex-direction: column
+		justify-content: center
+		position: absolute
+		z-index: 2
+		cursor: pointer
+	
+
+	.burger-menu
+		width: 40px
+		top: 50%
+		height: 50px
+		left: 21px
+
+	.close-menu
+		width: 30px
+		top: -40px
+		height: 30px
+		left: 142px
+
+	.burger-menu-btn, .close-menu-btn
+		display: block
+		width: 0
+		height: 28px
+		background-color: inherit
+		position: relative
+	
+	.burger-menu-btn span, .close-menu-btn span
+		position: absolute
+		top: 50%
+		margin-top: -1px
+		left: 50%
+		margin-left: 10px
+		width: 20px
+		height: 2px
+		background-color: #ffffff
+	
+	.close-menu-btn span
+		height: 0
+		
+	.burger-menu-btn span:before,
+	.burger-menu-btn span:after,
+		content: ''
+		background-color: #ffffff
+		width: 20px
+		height: 2px
+		display: block
+		transition: 0.5s
+	
+	.burger-menu-btn span:before,
+		transform: translateY(-7px)
+
+	.burger-menu-btn span:after,
+		transform: translateY(5px)
+		
+
+	.close-menu-btn span:before,
+	.close-menu-btn span:after,
+		content: ''
+		position: absolute
+		background-color: #ffffff
+		width: 20px
+		height: 2px
+		display: block
+		transition: 0.5s
+
+	.close-menu-btn span:before
+		transform: rotate(45deg)
+
+	.close-menu-btn span:after
+		transform: rotate(-45deg)
+	
+
+	.burger-menu-text
+		font-family: "Officina Serif C"
+		font-size: 12px
+		text-align: center
+		text-transform: uppercase
+		color: #ffffff
+
+	.menu
+		transform: translateX(-300px)
+		transition: 0.5s
+
+	.menu-list_active
+		transform: translateX(0)
+
+	.contact
+		display: none
+
+	.content
+		position: relative
+		z-index: 90
+		padding: 28px 25px 0 101px
+		width: 100%
+		transition: 0.3s
+		overflow-x: hidden
+
+	.content__project-name
+		margin-bottom: 31px
+	
+	.content__house-info
+		margin-right: 3%
+		width: 69%
+
+	.report__item
+		width: 33%
+
+	.report__item:first-child
+		display: none
+
+	.video
+		width: 70%
+
+	.report__picture
+		display: none
+
+	.footer
+		display: none
+
+
+
+
+
+@media screen and (max-width: 850px)
+
+	.wrapper
+		flex-direction: column
+
+	.sidebar
+		display: flex
+		flex-direction: column
+		position: fixed
+		overflow-y: hidden
+		background: url(../img/back-tree-rotate.png) no-repeat
+		background-color: #503314
+		background-blend-mode: multiply
+		background-position: 40% 50%
+		background-size: cover
+		padding: 16px 10px 0px 30px
+		width: 95%
+		height: 90px
+
+	.mobile_sidebar
+		height: 500px !important
+
+	.logo
+		margin: 0
+		margin-right: auto
+		width: 70px
+
+	.logo__picture
+		width: 100%
+
+	.burger-menu, .burger-menu-text
+		display: none
+
+	.mobile-menu
+		display: block
+		position: absolute
+		width: 40px
+		top: 30px
+		right: 10%
+
+	.mobile-menu-btn
+		display: block
+		position: relative
+		width: 40px
+		height: 40px
+		cursor: pointer
+	
+	.mobile-menu-btn span,
+	.mobile-menu-btn span:before,
+	.mobile-menu-btn span:after,
+		position: absolute
+		top: 50%
+		width: 40px
+		height: 3px
+		background-color: #fff
+
+	.mobile-menu-btn span:before,
+	.mobile-menu-btn span:after,
+		content: ''
+		transition: 0.5s
+
+	.mobile-menu-btn span:before
+		transform: translateY(-13px)
+	
+	.mobile-menu-btn span:after
+		transform: translateY(10px)
+
+	.mobile-menu-btn_close span
+		height: 0
+	
+	.mobile-menu-btn_close span:before
+		transform: rotate(45deg)
+	
+	.mobile-menu-btn_close span:after
+		transform: rotate(-45deg)
+
+	nav
+		margin: 0
+
+	.menu
+		margin: 0 auto
+		transform: translateX(0)
+
+	.menu__item
+		text-align: center
+
+	.content
+		padding: 105px 0 0 0
+
+	.breadcrumb
+		display: none
+	
+	.content__project-name
+		text-align: center
+
+	.content__house
+		flex-direction: column
+		width: 100%
+		margin: 0 auto
+
+	.content__house-info
+		width: 100%
+		margin-right: 0
+	
+	.content__house-floor
+		justify-content: center
+
+	.content__description
+		width: 100%
+
+	.description
+		margin: 0 auto
+		margin-bottom: 30px
+
+	.social-gadjets
+		text-align: center
+
+	.description__house
+		margin: 0 auto 38px
+	
+	.description__total
+		margin: 0 auto 30px
+	
+	.description__outlay
+		margin: 0 auto 58px
+
+
+	.equipment
+		flex-direction: column
+	
+	.equipment__basic, .equipment__optimal
+		max-width: 400px
+		width: 100%
+		margin: 0 auto
+
+	.equipment__basic
+		margin-bottom: 30px
+		
+
+
+	.delivery
+		padding: 23px 10px
+
+	.delivery__head
+		padding-top: 0
+
+	.delivery__text
+		margin-bottom: 30px
+
+	.delivery__price
+		padding-bottom: 0
+		margin-bottom: 30px
+
+	.delivery__tracks
+		display: none
+
+	.delivery__tracks-mobile
+		display: flex
+		justify-content: center
+
+	.delivery__tracks-mobile img
+		margin: 0 2%
+
+	.comparator__description
+		padding: 0 10px
+
+	.report
+		padding: 0 10px !important
+
+	.video
+		margin-bottom: 30px
+		width: 100%
+		height: 14em
+
+	.report__list
+		flex-direction: column-reverse
+
+	.report__item
+		margin: 0 auto
+		width: 60%

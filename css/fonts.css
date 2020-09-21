@@ -1,0 +1,20 @@
+@font-face{
+	font-family: 'Officina Serif C';
+	src: url('../fonts/OfficinaSerifBoldC.woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Roboto Bold';
+	src: url('../fonts/Roboto-Bold.woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Roboto Light';
+	src: url('../fonts/Roboto-Light.woff');
+	font-weight: 300;
+	font-style: normal;
+}
